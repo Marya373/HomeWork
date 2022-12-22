@@ -5,13 +5,15 @@
 // a = -9; b = -3 -> max = -3  
 
 {
+    int a, b;
+     
     Console.WriteLine("Введите число a");
-    int a = int.Parse(Console.ReadLine()!);
-
+    a = int.Parse(Console.ReadLine()!);
+    
     Console.WriteLine("Введите число b");
-    int b = int.Parse(Console.ReadLine()!);
-
-    if (a>b)
+    b = int.Parse(Console.ReadLine()!);
+    
+    if (a > b)
     {
         Console.WriteLine("максимум " + a);
     }
