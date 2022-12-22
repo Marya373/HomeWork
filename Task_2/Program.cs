@@ -4,24 +4,29 @@
 // a = 2; b = 10 -> max = 10
 // a = -9; b = -3 -> max = -3  
 
+internal class Program
 {
-    int a, b;
-     
-    Console.WriteLine("Введите число a");
-    a = int.Parse(Console.ReadLine()!);
-    
-    Console.WriteLine("Введите число b");
-    b = int.Parse(Console.ReadLine()!);
-    
-    if (a > b)
+    private static void Main(string[] args)
     {
-        Console.WriteLine("максимум " + a);
-    }
-    else
-    {
-        Console.WriteLine("максимум " + b);
-    }
+        {
+            int a;
+            int b;
 
-    Console.ReadLine();
+            Console.WriteLine("Введите число a");
+            a = int.Parse(Console.ReadLine()!);
+
+            Console.WriteLine("Введите число b");
+            b = int.Parse(Console.ReadLine()!);
+
+            if (a > b)
+            {
+                Console.WriteLine("максимум " + a);
+            }
+            else
+            {
+                Console.WriteLine("максимум " + b);
+            }
+            Console.ReadLine();
+        }
+    }
 }
-
