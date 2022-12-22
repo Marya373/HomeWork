@@ -4,8 +4,10 @@
 // a = 2; b = 10 -> max = 10
 // a = -9; b = -3 -> max = -3  
 
+
 Console.WriteLine("Введите число а");
 Console.WriteLine("Введите число b");
+
 int a = int.Parse(Console.ReadLine()!);
 int b = int.Parse(Console.ReadLine()!);
 
