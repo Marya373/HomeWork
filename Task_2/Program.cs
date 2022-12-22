@@ -14,10 +14,12 @@ int b = int.Parse(Console.ReadLine()!);
 if (a > b)
 {
     Console.WriteLine($"максимум {a}");
+    Console.WriteLine($"минимум {b}");
 }
 else
 {
     Console.WriteLine($"максимум {b}");
+    Console.WriteLine($"минимум {a}");
 }
 Console.ReadLine();
 
