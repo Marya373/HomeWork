@@ -4,28 +4,22 @@
 // 44 5 78 -> 78
 // 22 3 9 -> 22
 
-internal class Program
-{
-    private static int Main(string[] args)
-    {
-        {
-            int a = int.Parse(Console.ReadLine()!);
-            int b = int.Parse(Console.ReadLine()!);
-            int c = int.Parse(Console.ReadLine()!);
-            int max;
+Console.WriteLine("Введите 3 числа:");
+            int num_1 = Convert.ToInt32(Console.ReadLine());
+            int num_2 = Convert.ToInt32(Console.ReadLine());
+            int num_3 = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Введите число а");
-            Console.WriteLine("Введите число b");
-            Console.WriteLine("Введите число c");
+            int max = num_1;
 
+            if (num_2 > max)
             {
-                max = a > b ? a > c ? a : c : b > c ? b : c;
-                return max;
+                max = num_2;
             }
-            Console.WriteLine("Максимум трех чисел" + max);
-        
 
-        }
-        Console.ReadLine();
-    }
-}
+            if (num_3 > max)
+            {
+                max = num_3;
+            }
+
+            Console.WriteLine("Наибольшее из введённых чисел -> " + max);
+            
