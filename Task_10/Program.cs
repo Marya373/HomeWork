@@ -4,9 +4,7 @@
 // 782 -> 8
 // 918 -> 1
 
-{
-    static void Main(string[] args)
-    {
+
         Console.WriteLine("Введите трехзначное число");
         var n = Math.Abs(Convert.ToInt64(Console.ReadLine()));
 
@@ -18,5 +16,4 @@
         var r = n % 10;
 
         Console.WriteLine($"Вторая цифра: + {r}");
-    }
-}
+  
