@@ -4,6 +4,15 @@
 // 7 -> да
 // 1 -> нет
 
+Console.WriteLine("Введите номер дня недели");
+int x = int.Parse(Console.ReadLine()!);
+
+
+if(x >= 1 && x <= 5)
 {
-    
+    Console.WriteLine("Да");
+}
+else
+{
+    Console.WriteLine("Нет");
 }
