@@ -17,6 +17,6 @@
 
         var r = n % 10;
 
-        Console.WriteLine("Вторая цифра: + r");
+        Console.WriteLine($"Вторая цифра: + {r}");
     }
 }
