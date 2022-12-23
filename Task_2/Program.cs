@@ -7,10 +7,8 @@
 
 Console.WriteLine("Введите число а");
 Console.WriteLine("Введите число b");
-
 int a = int.Parse(Console.ReadLine()!);
 int b = int.Parse(Console.ReadLine()!);
-
 if (a > b)
 {
     Console.WriteLine($"большее {a}");
@@ -21,6 +19,6 @@ else
     Console.WriteLine($"большее {b}");
     Console.WriteLine($"меньшее {a}");
 }
-Console.ReadLine();
+
 
 
