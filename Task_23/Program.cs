@@ -3,3 +3,13 @@
 
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
+
+
+int N = int.Parse(Console.ReadLine()!);
+int result = 0;
+for (int i = 1; i <= N; i++)
+{
+    result += i*i*i;
+}
+
+Console.WriteLine(result);
