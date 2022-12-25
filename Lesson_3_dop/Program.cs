@@ -21,7 +21,7 @@ namespace Prime
         Console.WriteLine("N =");
         if ((!int.TryParse(Console.ReadLine(), out int result)) || (result < 0))
             Console.WriteLine("Число должно быть положительным и целым");
-        Console.WriteLine($"Простые числа из диапазона от 1 до (result)");
+        Console.WriteLine($"Простые числа из диапазона от 1 до {result}");
         int count = 0;
         for (int i = 1; i <= result; i++)
         {
