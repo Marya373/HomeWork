@@ -26,10 +26,11 @@ internal class Program
             {
                 Console.WriteLine("${number} - не палиндром");
             }
-        }
+        
         else
-        {
-            Console.WriteLine($"Ошибка: {number} - не является пятизначным");
+        {    
+        Console.WriteLine($"Ошибка: {number} - не пятизначное");
         }
-    }
-    
+    }    
+}}
+

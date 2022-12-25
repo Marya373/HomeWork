@@ -3,3 +3,13 @@ D:\HomeWork\HomeWork\Task_19\obj\Debug\net6.0\Task_19.GeneratedMSBuildEditorConf
 D:\HomeWork\HomeWork\Task_19\obj\Debug\net6.0\Task_19.AssemblyInfoInputs.cache
 D:\HomeWork\HomeWork\Task_19\obj\Debug\net6.0\Task_19.AssemblyInfo.cs
 D:\HomeWork\HomeWork\Task_19\obj\Debug\net6.0\Task_19.csproj.CoreCompileInputs.cache
+D:\HomeWork\HomeWork\Task_19\bin\Debug\net6.0\Task_19.exe
+D:\HomeWork\HomeWork\Task_19\bin\Debug\net6.0\Task_19.deps.json
+D:\HomeWork\HomeWork\Task_19\bin\Debug\net6.0\Task_19.runtimeconfig.json
+D:\HomeWork\HomeWork\Task_19\bin\Debug\net6.0\Task_19.dll
+D:\HomeWork\HomeWork\Task_19\bin\Debug\net6.0\Task_19.pdb
+D:\HomeWork\HomeWork\Task_19\obj\Debug\net6.0\Task_19.dll
+D:\HomeWork\HomeWork\Task_19\obj\Debug\net6.0\refint\Task_19.dll
+D:\HomeWork\HomeWork\Task_19\obj\Debug\net6.0\Task_19.pdb
+D:\HomeWork\HomeWork\Task_19\obj\Debug\net6.0\Task_19.genruntimeconfig.cache
+D:\HomeWork\HomeWork\Task_19\obj\Debug\net6.0\ref\Task_19.dll
