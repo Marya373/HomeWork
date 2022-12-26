@@ -8,10 +8,11 @@ namespace Prime
     {
     public static bool IsPrime(int N)
     {
-        for (int i = 1; i <= N; i++)
+        for (int i = 2; i <= N / 2; i++)
         {
             if (N % i == 0)
             return false;
+            
         }
             return true;
     }
@@ -23,11 +24,11 @@ namespace Prime
             Console.WriteLine("Число должно быть положительным и целым");
         Console.WriteLine($"Простые числа из диапазона от 1 до {result}");
         int count = 0;
-        for (int i = 1; i <= result; i++)
+        for (int i = 2; i <= result; i++)
         {
         if (IsPrime(i))
         {
-            Console.Write($"(i)");
+            Console.Write($"{i}");
             count++;
         } 
     }
