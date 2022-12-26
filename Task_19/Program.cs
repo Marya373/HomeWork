@@ -7,29 +7,21 @@
 
 // 23432 -> да
 
-internal class Program
 
-    private static void Main(string[] args)
-    
-        Console.WriteLine("Введите пятизначное число:");
-        string number = Console.ReadLine();
+Console.WriteLine("Введите пятизначное число:");
+        string number = Console.ReadLine()!;
         int len = number.Length;
 {
-        if (len == 5);
+        if (len == 5)
         {        
             if (number[0] == number[4] && number[1] == number[3])
             {
                 Console.WriteLine("Введенное число - палиндром");
             }
-            else
-            {             
-                Console.WriteLine("Введенное число - не палиндром");
-            }
-        
+                   
         else
         {
             Console.WriteLine("Введенное число не пятизначное");
         }
         }
 }
-
