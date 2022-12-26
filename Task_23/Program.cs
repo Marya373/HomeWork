@@ -4,12 +4,14 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
+int number = ReadInt("Введите число:");
 
-int N = int.Parse(Console.ReadLine()!);
-int result = 0;
-for (int i = 1; i <= N; i++)
+for (int i = 1; i <= number; i++)
 {
-    result += i*i*i;
+    Console.WriteLine($"{i*i*i}, ");
 }
-
-Console.WriteLine(result);
+int ReadInt(string message)
+{
+    Console.WriteLine(message);
+    return Convert.ToInt32(Console.ReadLine());
+}
