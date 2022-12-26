@@ -7,21 +7,21 @@
 
 // 23432 -> да
 
-
 Console.WriteLine("Введите пятизначное число:");
-        string number = Console.ReadLine()!;
-        int len = number.Length;
+string input = Console.ReadLine()!;
+
+if (input.Length == 5)
 {
-        if (len == 5)
-        {        
-            if (number[0] == number[4] && number[1] == number[3])
-            {
-                Console.WriteLine("Введенное число - палиндром");
-            }
-                   
-        else
-        {
-            Console.WriteLine("Введенное число не пятизначное");
-        }
-        }
+    if (input[0] == input[4] && input[1] == input[3])
+    {
+        Console.WriteLine("Введенное число - палиндром");
+    }
+    else
+    {
+        Console.WriteLine("Введенное число - не палиндром");
+    }
+}
+else
+{
+    Console.WriteLine("Введенное число не пятизначное");
 }
