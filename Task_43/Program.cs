@@ -13,21 +13,20 @@ double b2 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("введите число k2");
 double k2 = Convert.ToInt32(Console.ReadLine());
 
-    if (k1 != k2) // k1 * x + b1 = k2 * x + b2 => k угловой показатель
-    {
-        double x = (b2 - b1)/(k1 - k2);
-        double y = k2*x + b2;
-        Console.WriteLine($"две прямые пересекутся в точке с координатами X: {x}, Y: {y}");
-    }
-     else if (k1 == k2 | b1 != b2)
-     {
-        Console.WriteLine($"две прямые параллельны");
-     }
-     else
-     {
-        Console.WriteLine($"две прямые совпадают");
-     }
-                
+if (k1 != k2) // k1 * x + b1 = k2 * x + b2 => k угловой показатель
+{
+    double x = (b2 - b1) / (k1 - k2);
+    double y = k2 * x + b2;
+    Console.WriteLine($"две прямые пересекутся в точке с координатами X: {x}, Y: {y}");
+}
+else if (k1 == k2 | b1 != b2)
+{
+    Console.WriteLine($"две прямые параллельны");
+}
+else
+    Console.WriteLine($"две прямые совпадают");
+
+
 Console.WriteLine($"Для продолжения нажмите Enter");
 
 
