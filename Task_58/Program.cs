@@ -6,8 +6,6 @@ int InputInt(string output)
     Console.Write(output);
     return int.Parse(Console.ReadLine()!);
 }
-
-
 void FillArrayRandomNumbers(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
@@ -18,8 +16,6 @@ void FillArrayRandomNumbers(int[,] array)
         }
     }
 }
-
-
 void PrintArray(int[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
@@ -33,16 +29,12 @@ void PrintArray(int[,] array)
         Console.WriteLine("");
     }
 }
-
-
 int size = InputInt("размерность матриц: ");
 int[,] matrixA = new int[size, size];
 int[,] matrixB = new int[size, size];
 FillArrayRandomNumbers(matrixA);
 FillArrayRandomNumbers(matrixB);
 int[,] matrixC = new int[size, size];
-
-
 for (int i = 0; i < size; i++)
 {
     for (int j = 0; j < size; j++)

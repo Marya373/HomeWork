@@ -9,8 +9,6 @@ FillArrayRandomNumbers(numbers);
 PrintArray(numbers);
 int minsum = Int32.MaxValue;
 int indexLine = 0;
-
-
 for (int i = 0; i < numbers.GetLength(0); i++)
 {
     int sum = 0;
@@ -24,10 +22,7 @@ for (int i = 0; i < numbers.GetLength(0); i++)
         indexLine = indexLine + 1;
     }
 }
-
-
 Console.WriteLine("строка с наименьшей суммой элементов под номером: " + (indexLine) + ", с суммой элементов равной: " + (minsum));
-
 
 void FillArrayRandomNumbers(int[,] array)
 {
@@ -39,7 +34,6 @@ void FillArrayRandomNumbers(int[,] array)
         }
     }
 }
-
 
 void PrintArray(int[,] array)
 {
