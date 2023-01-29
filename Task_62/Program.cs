@@ -1,15 +1,11 @@
 ﻿// Задача 62. Напишите программу, которая заполнит спирально массив 4 на 4.
+
 Console.WriteLine("Введите размер массива");
 int size = Convert.ToInt32(Console.ReadLine());
-
-
 int[,] nums = new int[size, size];
-
-
 int num = 1;
 int i = 0;
 int j = 0;
-
 
 while (num <= size * size)
 {
@@ -24,7 +20,6 @@ while (num <= size * size)
         --i;
     ++num;
 }
-
 
 PrintArray(nums);
 
